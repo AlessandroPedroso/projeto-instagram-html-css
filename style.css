@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
 
 }
 
@@ -21,6 +22,7 @@ body{
 
 #wrapper{
     height: 100vh;
+
 }
 
 #container{
@@ -29,11 +31,13 @@ body{
     width: 800px;
     display: flex;
     align-items: center;
+
 }
 
 .column{
-    flex-grow: 1;
-    width: 50%;
+        flex-grow: 1;
+        width: 50%;
+  
 }
 
 .left{
@@ -47,4 +51,42 @@ body{
 
 .right{
     padding-left: 20px;
+}
+
+.login-panel{
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo-img{
+    width: 175px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="password"], input[type="text"]{
+    background-color: rgb(250, 250, 250,1);
+    border: 1px solid rgb(236, 234, 234);
+    border-radius: 4px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px;
+    width: 320px;
+}
+
+input[type="password"]::placeholder,input[type="text"]::placeholder{
+    color: rgb(165, green, blue);
+}
+
+input[type="password"]:focus, input[type="text"]:focus{
+outline: none;
+border: 1px solid #a1a1a1;
 }
