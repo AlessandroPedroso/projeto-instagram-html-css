@@ -31,13 +31,11 @@ body{
     width: 800px;
     display: flex;
     align-items: center;
-
 }
 
 .column{
         flex-grow: 1;
         width: 50%;
-  
 }
 
 .left{
@@ -123,4 +121,42 @@ input[type="submit"]{
 .infobox p a {
     font-weight: bold;
     user-select: none;
+}
+
+.get-app-panel{
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.app-buttons{
+
+    margin-top: 16px;
+}
+
+.app-buttons img{
+
+    height: 40px;
+    padding: 0 2px;
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+    margin-top: -30px;
+}
+
+footer a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.text-small{
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    text-transform: uppercase;
+    display: inline-block;
 }
